@@ -110,7 +110,7 @@ static NSString * const CYShopId = @"shop";
     return cell;
 }
 
-#pragma mark - <XMGWaterflowLayoutDelegate>
+#pragma mark - <CYWaterflowLayoutDelegate>
 - (CGFloat)waterflowLayout:(CYWaterFlowLayout *)waterflowLayout heightForItemAtIndex:(NSUInteger)index itemWidth:(CGFloat)itemWidth
 {
     CYShop *shop = self.shops[index];
